@@ -1,5 +1,5 @@
 import React from "react";
-import "./IntroPage.css"
+import "./IntroPage.css";
 
 const MenuCards = ({ items }) => {
   if (!items || items.length === 0) {
