@@ -111,7 +111,7 @@ const OrderForm = () => {
             };
 
             const response = await axios.post(
-              "https://reqres.in/api/pizza",
+              "https://jsonplaceholder.typicode.com/posts",
               values
             );
             console.log("API Response Data:", response.data);
