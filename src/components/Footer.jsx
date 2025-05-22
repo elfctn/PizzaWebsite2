@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 import footImg from "../../Assets/Iteration-2-aseets/footer/icons/icon-1.png";
 import footImg2 from "../../Assets/Iteration-2-aseets/footer/icons/icon-2.png";
 import footImg3 from "../../Assets/Iteration-2-aseets/footer/icons/icon-3.png";
@@ -39,14 +39,14 @@ const FooterContent = styled.div`
 const FooterColumn = styled.div`
   flex: 1;
   padding: 10px;
-  font-weight: bold; 
+  font-weight: bold;
 `;
 
 // Footer title style with flex for logos and text alignment
 const FooterTitle = styled.h3`
   font-size: 24px;
   margin-bottom: 10px;
-  font-weight: bold; 
+  font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -86,10 +86,10 @@ const InstagramGrid = styled.div`
   margin-top: 10px;
 
   img {
-    width: 60%;  /* Reduce the width */
-    height: auto;  /* Maintain aspect ratio */
+    width: 60%; /* Reduce the width */
+    height: auto; /* Maintain aspect ratio */
     object-fit: contain; /* Ensures images fit within their container */
-    margin: 0 auto;  /* Center the images within the grid cells */
+    margin: 0 auto; /* Center the images within the grid cells */
   }
 `;
 
@@ -98,19 +98,29 @@ const Footer = () => {
     <FooterContainer>
       <FooterContent>
         <FooterColumn>
-          <FooterTitle>
-            Teknolojik Yemekler
-          </FooterTitle>
-          <div style={{ display: "flex", alignItems: "center", marginBottom: "10px" }}>
-          <Logo src={footImg} alt="Logo 1" />
+          <FooterTitle>Teknolojik Yemekler</FooterTitle>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              marginBottom: "10px",
+            }}
+          >
+            <Logo src={footImg} alt="Logo 1" />
             <p>341 Londonderry Road, İstanbul Türkiye</p>
           </div>
-          <div style={{ display: "flex", alignItems: "center", marginBottom: "10px" }}>
-          <Logo src={footImg2} alt="Logo 2" />
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              marginBottom: "10px",
+            }}
+          >
+            <Logo src={footImg2} alt="Logo 2" />
             <p>aciktim@teknolojik.com</p>
           </div>
           <div style={{ display: "flex", alignItems: "center" }}>
-          <Logo src={footImg3} alt="Logo 3" />
+            <Logo src={footImg3} alt="Logo 3" />
             <p>+90 216 123 45 67</p>
           </div>
         </FooterColumn>
@@ -135,7 +145,7 @@ const Footer = () => {
           </InstagramGrid>
         </FooterColumn>
       </FooterContent>
-      <p>© 2023 Teknolojik Yemekler</p>
+      <p>© 2025 elifcetin Teknolojik Yemekler</p>
     </FooterContainer>
   );
 };
