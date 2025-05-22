@@ -7,7 +7,6 @@ import mainImg3 from "../../Assets/Iteration-2-aseets/cta/kart-3.png";
 import { useHistory } from "react-router-dom";
 import Footer from "./Footer";
 
-
 import MenuCards from "./MenuCards";
 import MenuBar from "./MenuBar";
 import { menuIcons, firstMenuLabels, secondMenuLabels, items } from "./MockDB";
@@ -49,7 +48,7 @@ function IntroPage() {
           classProp="intro-page-menu-bar"
         />
         <div className="intro-page-cta-wrapper">
-        <div
+          <div
             className="intro-page-cta-left-column"
             style={{
               backgroundImage: `url(${mainImg})`, // Inline style ile background-image ekleniyor
@@ -70,12 +69,12 @@ function IntroPage() {
             </Button>
           </div>
           <div className="intro-page-cta-right-column">
-          <div
-            className="cta-right-card-1"
-            style={{
-              backgroundImage: `url(${mainImg2})`, // Inline style ile background-image ekleniyor
-            }}
-          >
+            <div
+              className="cta-right-card-1"
+              style={{
+                backgroundImage: `url(${mainImg2})`, // Inline style ile background-image ekleniyor
+              }}
+            >
               <h2 className="cta-right-card-1-heading">
                 Hackatlon <br /> Burger Menu
               </h2>
@@ -90,11 +89,11 @@ function IntroPage() {
               </Button>
             </div>
             <div
-            className="cta-right-card-2"
-            style={{
-              backgroundImage: `url(${mainImg3})`, // Inline style ile background-image ekleniyor
-            }}
-          >
+              className="cta-right-card-2"
+              style={{
+                backgroundImage: `url(${mainImg3})`, // Inline style ile background-image ekleniyor
+              }}
+            >
               <h2 className="cta-right-card-2-heading">
                 <span style={{ color: "#ce2829" }}>Çooook </span> hızlı <br />{" "}
                 Npm gibi kurye
